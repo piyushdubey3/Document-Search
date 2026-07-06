@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Backend generated files
+backend/uploads/
+backend/indexes/
+
+# Node dependencies
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
