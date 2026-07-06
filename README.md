@@ -1,3 +1,4 @@
+
 # Document Search Engine
 
 A full-stack document search application for uploading, indexing, searching, viewing, and managing PDF documents.
@@ -192,3 +193,4 @@ Further improvements are planned.
 Piyush Dubey  
 B.Tech Data Science and Engineering  
 IIT Palakkad
+>>>>>>> origin/main
