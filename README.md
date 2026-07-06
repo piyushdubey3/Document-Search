@@ -1,7 +1,7 @@
 
 # Document Search Engine
 
-A full-stack document search application for uploading, indexing, searching, viewing, and managing PDF documents.
+A full-stack document search application for uploading, searching, viewing, and managing PDF documents.
 
 The system builds positional indexes from uploaded PDFs and supports both word-based search and exact phrase search. Search results can be opened directly inside an integrated PDF viewer with highlighted matches and circular Previous/Next navigation.
 
@@ -17,9 +17,6 @@ The system builds positional indexes from uploaded PDFs and supports both word-b
 - Display matched documents and occurrences
 - Open search results in an integrated PDF viewer
 - Highlight matching text inside PDFs
-- Navigate between matches using Previous and Next controls
-- Circular match navigation
-- Manually scroll through PDFs without navigation lock
 - View uploaded document collection
 - Delete documents and associated indexes
 - Responsive React-based interface
@@ -147,19 +144,6 @@ Searches indexed words across the document collection and returns matching occur
 
 Uses positional information to find consecutive terms occurring in the requested order.
 
-## PDF Match Navigation
-
-Search results can be opened directly in the integrated PDF viewer.
-
-The viewer supports:
-
-- highlighting search matches
-- distinguishing the current match
-- Previous and Next navigation
-- circular navigation from last match to first
-- circular navigation from first match to last
-- free manual scrolling after navigation
-
 ## Current Status
 
 This project currently includes the core document retrieval workflow:
@@ -178,15 +162,12 @@ Further improvements are planned.
 
 ## Future Improvements
 
-- Search result ranking
-- TF-IDF or BM25 scoring
-- Fuzzy search
-- OCR support for scanned PDFs
-- Search snippets with context
-- Advanced query parsing
-- Larger-scale document storage
-- Authentication and user-specific collections
-- Deployment for public access
+- Improve search result ranking
+- Add fuzzy search for minor spelling mistakes
+- Support scanned PDFs using OCR
+- Show better context around search matches
+- Add user accounts and personal document collections
+and much more..........
 
 ## Author
 
